@@ -1,0 +1,12 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteRule ^storage/ - [F,L]
+
+<FilesMatch "^\.env">
+    Require all denied
+</FilesMatch>
+
+<Files ".htaccess">
+    Require all denied
+</Files>
