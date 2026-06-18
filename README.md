@@ -37,7 +37,7 @@ liegen lokal im `storage`-Verzeichnis.
 2. Im Projektordner eine Datei `.env` anlegen:
 
    ```env
-   ULTIMO_BASE_URL=https://neemann.ultimo.net/api/v1
+   ULTIMO_BASE_URL=https://firmenname.ultimo.net/api/v1
    ULTIMO_API_KEY=dein-api-key
    REFRESH_SECONDS=60
    DASHBOARD_CACHE_SECONDS=300
